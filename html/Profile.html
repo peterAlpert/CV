@@ -13,9 +13,9 @@
   </head>
   <body>
     <div class="profile" id="top">
-        <span class="loginbtn"><a href="../index.html" >Login</a></span>
+        <!-- <span class="loginbtn"><a href="../index.html" >Login</a></span> -->
         <!-- Top arrow -->
-        <a href="#top"><img src="../Assets/images/top.jpg" style="width: 70px; height: 70px; position: fixed; right: 2%; bottom: 2%; opacity: 0.3;"></a>
+        <a href="#top"><img src="../Assets/images/top.jpg" class="topImg"></a>
 
         <!-- profile nav -->
         <div class="nav">
@@ -24,9 +24,10 @@
             <input type="search"  placeholder="search" />
       
             <ul>
-              <li>Find People</li>
-              <li>Messages <span class="badge">4</span> </li>
-              <li>My Contacts</li>
+              <li><a href="#">Find People</a></li>
+              <li><a href="#">Messages <span class="badge">4</span></a> </li>
+              <li><a href="../html/Follow.html">Follow page</a></li>
+              <li><a href="../index.html" >Login</a></li>
             </ul>
         </div>
 
@@ -43,8 +44,8 @@
         <div class="profileBody">
             <img src="../Assets/images/profile.jpg" class="profileImg">
             <div class="profileData">
-                <h1  >Peter Kameel</h1>
-                <span >Fullstack Developer</span><br><br><br>
+                <h1  >Peter Kameel Berty</h1>
+                <span >Fullstack Developer</span>
 
                 <h3  >Ranking</h3>
                 <span >
@@ -146,10 +147,10 @@
             <label for="name">Name</label>
             <input type="text" id="name" name placeholder="Your name..">
         
-            <label for="subject">Subject</label>
+            <label for="subject">Message</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
 
-            <span ><a href="mailto:peterkameel.93@gmail.com">Click here</a></span>        
+            <span ><a href="mailto:peterkameel.93@gmail.com">Send</a></span>        
           </form>
         </div>
 

@@ -16,15 +16,6 @@
     color: white;
   }
 
-  .loginbtn a{
-    position: absolute;
-    font-weight: bolder;
-    z-index: 1;
-    font-size: larger;
-    right: 15px;
-    top: 5px;
-}
-  
   .secNav ul>li{
     display: inline;
     margin: 0 5%;
@@ -148,16 +139,16 @@
   .contactMe {
     margin-left: 10%;
     border-radius: 5px;
-    padding: 20px;
+    padding: 0 5%;
   }
-  .contactMe form span a{
+  .contactMe a{
     color: black;
     font-size: larger;
     box-shadow:1px 0px 5px #b8b2b2;
-    margin-left: 85%;
+    margin-left: 93%;
     padding: 1%;
   }
-  .contactMe form span a:hover{
+  .contactMe a:hover{
     background-color: #0097ff91;
     opacity: 90%;
     color: white;
@@ -188,7 +179,7 @@
     margin: 0 10% 0 0;
   }
   hr{
-    margin:5% ; opacity:0.5 ;
+    margin:2% 5% ; opacity:0.5 ;
   }
   .profileDetails>div{
     width: 40%; margin: 0 auto;
@@ -201,7 +192,7 @@
     width: 50%; margin: 0 auto; border-radius: 0 0 250px 250px;
   }
   .secNav a{
-    opacity: 0.7;
+    opacity: 0.8;
   }
   .secNav a:hover{
     font-size: 120%;
@@ -211,5 +202,12 @@
   .footer{
     text-align: right; background-color: #0097ff91; color: white; padding: 0.5% 2% 0.5% 0;
     border-radius:0 0 25px 25px;
-     margin-top: 10%; 
+     margin-top: 5%; 
+  }
+
+  .topImg{
+    width: 70px; height: 70px; position: fixed; right: 2%; bottom: 2%; opacity: 0.3;
+  }
+  .topImg:hover{
+    width: 70px; height: 70px; opacity: 0.9;  bottom: 5%;
   }
