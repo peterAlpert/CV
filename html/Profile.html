@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/profileCss.css" />
+
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+  </head>
+  <body>
+    <div class="profile" id="top">
+        <span class="loginbtn"><a href="../login.html" >Login</a></span>
+        <!-- Top arrow -->
+        <a href="#top"><img src="../Assets/images/top.jpg" style="width: 70px; height: 70px; position: fixed; right: 2%; bottom: 2%; opacity: 0.3;"></a>
+
+        <!-- profile nav -->
+        <div class="nav">
+            <img src="../Assets/images/logo.jpg" />
+            <h1>Peter Kameel</h1>
+            <input type="search"  placeholder="search" />
+      
+            <ul>
+              <li>Find People</li>
+              <li>Messages <span class="badge">4</span> </li>
+              <li>My Contacts</li>
+            </ul>
+        </div>
+
+        <div class="secNav">
+          <ul >
+            <li><a href="#contactInfo">Contact Info</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
+          </ul>
+        </div>
+
+        <!-- profile Body -->
+        <div class="profileBody">
+            <img src="../Assets/images/profile.jpg" class="profileImg">
+            <div class="profileData">
+                <h1  >Peter Kameel</h1>
+                <span >Fullstack Developer</span><br><br><br>
+
+                <h3  >Ranking</h3>
+                <span >
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </span> <br><br>
+
+                <h3 >Social Media</h3>
+                <span>
+                  <ul >
+                    <li ><a href="https://www.linkedin.com/in/peter-kameel-a61055148/" target="_blank" ><img class="socialImg" src="../Assets/images/linkedIn.jpg" ></a></li>
+                    <li ><a href="https://www.facebook.com/login.php/" target="_blank"><img class="socialImg" src="../Assets/images/facebook.jpg" ></a></li>
+                    <li ><a href="https://github.com/peterAlpert" target="_blank"><img class="socialImg" src="../Assets/images/github.jpg"></a></li>
+                    <li ><a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/preferences%3Fhl%3Den%26prev%3Dhttps://www.google.com/search%253Fq%253Demail%252Blogo%2526rlz%253D1C1CHWL_arEG1027EG1027%2526oq%253Demail%252Blogo%2526gs_lcrp%253DEgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIJCAkQABgKGIAEqAIIsAIB%2526pf%253Dcs%2526sourceid%253Dchrome%2526ie%253DUTF-8&ec=GBRAAQ" target="_blank"><img class="socialImg" src="../Assets/images/mail.jpg"></a></li>
+                  </ul>
+                </span>
+            </div>
+        </div>
+
+
+        <!-- Contact Information -->
+        <hr />
+        <h3 id="contactInfo" >Contact Information</h3>
+        <div class="profileDetails">
+          
+          <div >
+            <ul>
+              <li>Email <span>peterkemmel.93@gmail.com</span></li>
+              <li>Gender <span>Male</span></li>
+              <li>Statues <span>Single</span></li>
+            </ul>
+          </div>
+
+          <div class="vl"></div>
+
+            
+          <div >
+            <ul>
+              <li>Address <span>Assiut, new assiut</span></li>
+              <li>Telephone <span>01286966317</span></li>
+              <li>Statues <span>Single</span></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <!-- Education -->
+        <hr />
+        <h3 id="education">Education</h3>
+        <div class="profileDetails education" >
+          <p >Bachelor Of Computers and Information, Information System Department, Faculty Of Computers and Information, Assiut Universty, Egypt</p>
+          <ul>
+            <li>Cumulative Grades: 65.93%</li>
+            <li>Graduation Project Title: Hospital System</li>
+            <li>Graduation Project Grade: 97.5%</li>
+          </ul>
+        </div>
+
+      
+        <!-- Skills -->
+        <hr />
+        <h3 id="skills" >Skills</h3>
+        <div class="profileDetails skills">
+          <div >
+            <ul>
+              <h4>Technical</h4>
+              <li>Basic: HTML, CSSand Sass.</li>
+              <li>React: JQuery, React, Bootstrap and Tailwindcss.</li>
+              <li>Frameworks: Angular and Express.</li>
+              <li>Databases: SQL, MongoDB.</li>
+              <li>Languages: C#, Javascript and Typescript.</li>
+            </ul>
+          </div>
+
+          <div class="vl"></div>
+
+            
+          <div style="width: 40%; margin: 0 auto;display: inline;">
+            <ul>
+              <h4>InterPersonal</h4>
+              <li>Teamwork.</li>
+              <li>Honesty.</li>
+              <li>Accepting Challenges.</li>
+              <li>Work for a long time</li>
+            </ul>
+          </div>
+        </div>
+        
+
+
+        <!-- Contact Me -->
+        <hr />
+        <h3 id="contactMe">Contact Me</h3>
+        <div class="contactMe">
+          <form >
+            <label for="name">Name</label>
+            <input type="text" id="name" name placeholder="Your name..">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+            <span ><a href="mailto:peterkameel.93@gmail.com">Click here</a></span>        
+          </form>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="footer">
+          <p>All rights reserved &#169; 2024</p>
+        </div>
+
+    </div>
+  </body>
+</html>

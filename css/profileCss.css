@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    scroll-behavior: smooth;
+  }
+  ul{
+    list-style-type: none;
+    display: inline;
+    padding-inline-start: 0;
+  }
+  input{
+    border-radius: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .loginbtn a{
+    position: absolute;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+    right: 15px;
+    top: 5px;
+}
+  
+  .secNav ul>li{
+    display: inline;
+    margin: 0 5%;
+  }
+.profile{
+  position: relative;
+    width: 80%;
+    margin: 5% auto;
+    border-radius: 25px;
+    box-shadow: 2px 2px 40px #b8b2b2;
+  }
+  .nav{
+    padding: 2%;
+    background-color: #0097ff91;
+    border-radius:25px 25px 0 0;
+    position: relative;
+    color: white;
+  }
+  .nav h1 {
+    display: inline;
+    margin-left: 5%;
+  }
+
+  .nav input {
+    font-size: larger;
+    padding: 5px 2%;
+    border: 0;
+    box-shadow: 1px 2px 1px #888888;
+    margin: 0% 5%;
+  }
+
+  .nav ul {
+    margin-left: 4%;
+  }
+  .nav li {
+    display: inline;
+    padding: 0 0.5%;
+  }
+  .nav img{
+    position: absolute;
+    top: 20px;
+    width: 50px; height: 50px; border-radius: 50%;
+  }
+  .badge{
+    background-color: #0099ff;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 50%;
+  }
+  
+  .profileImg{
+    width: 20%; height: 250px; margin: 1% 5%; display: inline-block;
+    border-radius: 10%;
+  }
+  .profileData{
+    width: 60%;
+    margin: 1% 2%;
+    display: inline-block;
+  }
+  .fa{
+    font-size: larger;
+  }
+  .checked {
+    color: #0097ff91;
+  }
+  
+  .profileData>h3{
+    margin: 0 10% 0 0;
+    line-height: 150%;
+  }
+  .profileData>span{
+    margin-left: 40%;
+    opacity: 0.9;
+  }
+  .profileData a{
+    color: #0097ff91;
+  }
+  .socialImg{
+    width: 50px; height: 50px; border-radius: 50%;;
+  }
+  .profileBody ul>li{
+    display: inline;
+  }
+  .profileDetails{
+    padding: 0 2%;
+    position: relative;
+    width: 100%;
+    display: flex;
+  }
+  .vl {
+    border-left: 3px solid rgba(0, 0, 0);
+    height: 80%;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    margin-left: -3px;
+    opacity:0.2 ;
+      }
+
+  .profileDetails ul{
+    font-size: larger;
+  }
+  .profileDetails ul>li{
+    margin-bottom: 5%;
+
+  }
+
+  .profileDetails ul>li span{
+    margin-left: 5%;
+    opacity: 0.7;
+  }
+  
+  input[type=text],textarea {
+    width: 100%; 
+    padding: 1%;
+    margin: 1% 0;
+    resize: vertical
+  }
+
+  .contactMe {
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .contactMe form span a{
+    color: black;
+    font-size: larger;
+    box-shadow:1px 0px 5px #b8b2b2;
+    margin-left: 85%;
+    padding: 1%;
+  }
+  .contactMe form span a:hover{
+    background-color: #0097ff91;
+    opacity: 90%;
+    color: white;
+    cursor: pointer;
+  }
+  .skills ul li{
+    font-size: 90%;
+    /* margin-left: 5%; */
+    opacity: 0.7;
+  }
+  .education{
+    display: block;
+    padding-left: 7%;
+  }
+  .education ul{
+    list-style-type: disclosure-closed;
+    display: block;
+    font-size: 90%;
+    margin: 4% 7%;
+    line-height: 0.5%;
+  }
+  .profile h3{
+    margin: 0 0 2% 5%;
+    color: #0097ff91;
+    font-size: x-large;
+  }
+  .profileData h3{
+    margin: 0 10% 0 0;
+  }
+  hr{
+    margin:5% ; opacity:0.5 ;
+  }
+  .profileDetails>div{
+    width: 40%; margin: 0 auto;
+  }
+  .skills>div ul>li{
+    margin-left: 5%;
+  }
+  .secNav{
+    padding: 0.5%; background-color: #0097ff91;
+    width: 50%; margin: 0 auto; border-radius: 0 0 250px 250px;
+  }
+  .secNav a{
+    opacity: 0.7;
+  }
+  .secNav a:hover{
+    font-size: 120%;
+    opacity: 1;
+  }
+  
+  .footer{
+    text-align: right; background-color: #0097ff91; color: white; padding: 0.5% 2% 0.5% 0;
+    border-radius:0 0 25px 25px;
+     margin-top: 10%; 
+  }
