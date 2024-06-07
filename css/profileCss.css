@@ -209,7 +209,7 @@
     width: 70px; height: 70px; position: fixed; right: 2%; bottom: 2%; opacity: 0.3;
   }
   .topImg:hover{
-    width: 70px; height: 70px; opacity: 0.9;  bottom: 5%;
+    opacity: 0.9;  bottom: 5%;
   }
 
   @media screen and (max-width: 700px) {
@@ -222,5 +222,25 @@
       width: 100%;
       margin: 0;
       box-shadow: 0;
+      }
+      .nav img{
+        display: none;
+      }
+      .secNav{
+        padding: 0.5%; background-color: #0097ff91;
+        width: 90%; margin: 0 auto; border-radius: 0 0 250px 250px;
+      }
+      .profileData>span{
+        margin-left: 10%;
+        opacity: 0.9;
+      }
+      .socialImg{
+        width: 30px; height: 30px; border-radius: 50%;;
+      }
+      .topImg{
+         bottom:-10%;
+      }
+      .topImg:hover{
+          bottom: -5%;
       }
   }
