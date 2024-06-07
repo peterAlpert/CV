@@ -213,10 +213,10 @@
   }
 
   @media screen and (max-width: 900px) {
-    *{
-      font-family: math;
-    font-size: medium;
-    }
+      *{
+        font-family: math;
+      font-size: medium;
+      }
       .profile{
       width: 100%;
       margin: 0;
@@ -254,7 +254,6 @@
       .nav ul {
         text-align: center;
         display: block;
-        padding: 1%;
       }
       .nav li {
         margin: 0 4%;
