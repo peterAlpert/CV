@@ -249,15 +249,13 @@
       .nav h1 {
         display: block;
       }
-    
-      .nav input {
-        display: none;
-      }
       .nav ul {
-        padding: 1% auto;
+        width: 50%;
+        margin: 2px auto;
+        padding: 1%;
         display: block;
       }
       .nav li {
-        margin: 0 2%;
+        margin: 0 5%;
       }
   }
