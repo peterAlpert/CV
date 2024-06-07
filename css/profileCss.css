@@ -227,8 +227,11 @@
       }
       .secNav{
         padding: 0.5%; background-color: #0097ff91; text-align: center;
-        width: 90%; margin: 0 auto; border-radius: 0 0 250px 250px;
+        width: 95%; margin: 0 auto; border-radius: 0 0 250px 250px;
       }
+      .secNav ul>li {
+        margin: 4px 3%;
+    }
       .profileData>span{
         margin-left: 10%;
         opacity: 0.9;
@@ -256,6 +259,6 @@
         display: block;
       }
       .nav li {
-        margin: 0 4%;
+        margin: 0 1%;
       }
   }
