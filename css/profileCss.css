@@ -215,10 +215,10 @@
   @media screen and (max-width: 900px) {
     body {
       font-size: smaller;
+      font-family: 'Courier New', Courier, monospace;
     }
 
-    .profile{
-      
+      .profile{
       width: 100%;
       margin: 0;
       box-shadow: 0;
@@ -238,9 +238,21 @@
         width: 30px; height: 30px; border-radius: 50%;;
       }
       .topImg{
-         bottom:-10%;
+         display: none;
       }
-      .topImg:hover{
-          bottom: -5%;
+      .profileImg{
+        width: 25%; height: 150px; margin: 5% 2%; display: inline-block;
+        border-radius: 25px;
+      }
+      .nav h1 {
+        display: block;
+      }
+    
+      .nav input {
+        display: none;
+      }
+      .nav ul {
+        margin: 0 auto;
+        display: block
       }
   }
