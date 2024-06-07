@@ -214,7 +214,7 @@
 
   @media screen and (max-width: 900px) {
       *{
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial;
       }
       .profile{
       width: 100%;
@@ -240,7 +240,11 @@
       }
       .profileImg{
         width: 25%; height: 100px; margin: 5% 2%; display: inline-block;
+        
         border-radius: 25px;
+      }
+      .nav{
+        text-align: center;
       }
       .nav h1 {
         display: block;
@@ -250,7 +254,6 @@
         display: none;
       }
       .nav ul {
-        text-align: center;
         padding: 1% auto;
         display: block;
       }
