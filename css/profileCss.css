@@ -222,7 +222,7 @@
         display: none;
       }
       .secNav{
-        padding: 0.5%; background-color: #0097ff91;
+        padding: 0.5%; background-color: #0097ff91; text-align: center;
         width: 90%; margin: 0 auto; border-radius: 0 0 250px 250px;
       }
       .profileData>span{
@@ -240,12 +240,16 @@
         width: 25%; height: 150px; margin: 5% 2%; display: inline-block;
         border-radius: 50%;
       }
+      .nav h1{
+        display: block;
+        text-align: center;
+      }
       .nav input{
         display: none;
       }
       .nav ul {
+        text-align: center;
         display: block;
-        margin-left: 23%;
         padding: 1%;
       }
       .nav li {
