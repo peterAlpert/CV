@@ -242,5 +242,12 @@
         width: 25%; height: 100px; margin: 5% 2%; display: inline-block;
         border-radius: 25px;
       }
-      
+      .nav ul {
+        display: block;
+        margin-left: 23%;
+        padding: 1%;
+      }
+      .nav li {
+        margin: 0 5%;
+      }
   }
