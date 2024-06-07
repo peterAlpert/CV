@@ -226,8 +226,8 @@
         display: none;
       }
       .secNav{
-        padding: 0.5%; background-color: #0097ff91; text-align: center;
-        width: 95%; margin: 0 auto; border-radius: 0 0 250px 250px;
+        padding: 0.5% 0; background-color: #0097ff91; text-align: center;
+        width: 98%; margin: 0 auto; border-radius: 0 0 250px 250px;
       }
       .secNav ul>li {
         margin: 4px 3%;
@@ -259,6 +259,6 @@
         display: block;
       }
       .nav li {
-        margin: 0 1%;
+        margin: 0;
       }
   }
